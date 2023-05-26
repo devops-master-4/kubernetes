@@ -22,10 +22,12 @@ kubectl get services
 
 
 ## go to client
-cd ./client
+cd client/
+export KUBECONFIG=../kubeconfig.yml
 
 kubectl delete -f client-deployment.yaml
 kubectl delete -f client-service.yaml
 
-kubectl create -f client-deployment.yaml
 kubectl create -f client-service.yaml
+kubectl create -f client-deployment.yaml
+ls
