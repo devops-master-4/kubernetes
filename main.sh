@@ -19,3 +19,13 @@ kubectl create -f redis-node-deployment.yaml
 kubectl get deployments
 kubectl get pods
 kubectl get services
+
+
+## go to client
+cd ./client
+
+kubectl delete -f client-deployment.yaml
+kubectl delete -f client-service.yaml
+
+kubectl create -f client-deployment.yaml
+kubectl create -f client-service.yaml

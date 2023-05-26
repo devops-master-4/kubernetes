@@ -1,4 +1,4 @@
-<div align="center">  <h1 style="font-size:30px" >ny-cli <br />
+<div align="center">  <h1 style="font-size:30px" > Kubernetes Deployment<br />
 <img src="https://github.com/meteor314/ny-cli/blob/master/src/ny-cli.png?raw=true" width="48px" height="48px" > </h1>  </div>
 <p align="center">
    Kuberneter deployment 
