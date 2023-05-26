@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-sakir
+  labels:
+    app: redis-sakir
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-sakir
+  template:
+    metadata:
+      labels:
+        app: redis-sakir
+    spec:
+      containers:
+        - name: redis-sakir
+          image: redis
+          ports:
+            - containerPort: 6379

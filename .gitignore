@@ -1,0 +1,5 @@
+kubeconfig.yml
+redis-5.0.5/
+# vim stuff
+*.swp
+*.swo
